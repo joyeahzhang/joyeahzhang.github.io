@@ -1,7 +1,7 @@
 baseURL: "https://joyeahzhang.github.io/"
 title: joyeahzhang`s blog
 paginate: 5
-theme: PaperMod
+theme: 'PaperMod'
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -61,13 +61,13 @@ params:
     enabled: true # needs to be explicitly set
     title: joyeahzhang`s blog
     subtitle: "循序渐进，持之以恒"
-    imageUrl: 
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: 
+    imageUrl: /image/pinkdog.png
+    imageWidth: 200
+    imageHeight: 200
+    imageTitle: joyeah
     buttons:
       - name: posts
-        url: post
+        url: posts
       - name: archive
         url: archives
       - name: categories
@@ -119,6 +119,10 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 5
     - identifier: categories
       name: categories
       url: /categories/
@@ -131,6 +135,10 @@ menu:
       name: archive
       url: /archives/
       weight: 30
+    - identifier: PaperMod 
+      name: PaperMod
+      url: https://github.com/adityatelange/hugo-PaperMod/wiki/
+      weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
