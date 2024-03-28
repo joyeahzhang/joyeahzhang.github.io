@@ -61,9 +61,9 @@ params:
     enabled: true # needs to be explicitly set
     title: joyeahzhang`s blog
     subtitle: "循序渐进，持之以恒"
-    imageUrl: /image/pinkdog.png
-    imageWidth: 200
-    imageHeight: 200
+    imageUrl: /images/pinkdog.png
+    imageWidth: 150
+    imageHeight: 150
     imageTitle: joyeah
     buttons:
       - name: posts
