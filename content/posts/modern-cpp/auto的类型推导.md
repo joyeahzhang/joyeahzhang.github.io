@@ -1,7 +1,7 @@
 +++
 title = 'Auto的类型推导'
 discription = ""
-tags = ["auto" "type deduction"]
+tags = ["auto","type deduction"]
 categories = ["modern-cpp"]
 date = 2024-04-06T11:18:15+08:00
 draft = false
